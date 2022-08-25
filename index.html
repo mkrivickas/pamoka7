@@ -4,7 +4,7 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Bit | Pamoka 6. UFO</title>
+        <title>Bit | Pamoka 7. UFO</title>
     </head>
     <body>
         <main
@@ -13,22 +13,16 @@
                 width: 60%;
                 margin-left: 20%;
                 margin-top: 10%;
+                display: inline-block;
             "
         >
-            <div
-                style="
-                    width: 30%;
-                    background-color: aqua;
-                    display: inline-block;
-                    margin-right: 0%;
-                "
-            >
+            <div style="width: 30%; background-color: aqua; float: left">
                 <h1>404</h1>
                 <p>Page not found</p>
-                <a href="#" style="display: inline-block">Go home</a>
+                <a href="#">Go home</a>
             </div>
             <img
-                style="width: 60%; display: inline-block"
+                style="width: 60%; float: right"
                 src="./ufo.png"
                 alt="Čia turėtų būti nuotrauka..."
             />
@@ -44,7 +38,7 @@
     stiliaus-savybė: reikšmė;
 
     Elementų tarpusavio atsistūmimas:
-    margin: 0%              visomis kryptimis
+    margin: 0%                  visomis kryptimis
     margin-left: 0% 
     margin-top: 0%
     margin-right: 0%
@@ -55,5 +49,14 @@
     display: inline;            vos keletas - elementai krenta eilute, su galimybe persikelti į naują eilutę
     display: inline-block;      vos keletas - elementai krenta eilute, bet jei visas netelpa, tai krenta į naują eilutę ir nebūna platesnis už tėvinį elementą
     display: none;              vos keletas - elementai nesimato/nerodomi
+
+    Priverstinis elementų nustūmimas (horizontaliai) nurodyta kryptimi:
+    float: left;
+    float: right;
+
+    Paprastas (standartizuotas) būdas kurti universalią struktūrą (Šventa trejybė):
+    display: inline-block;
+    width: 100%;
+    float: left;
 
  -->
